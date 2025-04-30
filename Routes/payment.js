@@ -4,6 +4,7 @@ import {
   verify,
   userOrder,
   allOrders,
+
 } from "../Controllers/payment.js";
 import {Authenticated} from '../Middlewares/Auth.js'
 
@@ -25,3 +26,6 @@ router.get("/orders", allOrders);
 
 
 export default router
+
+
+////////////////////////////////////

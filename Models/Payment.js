@@ -6,3 +6,5 @@ const paymentSchema = new mongoose.Schema({
 },{strict:false})
 
 export const Payment = mongoose.model('Payment',paymentSchema);
+
+//////////////////////////////////////
